@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@astral/eslint-config-base",
+    "react-app",
+    "react-app/jest"
+  ]
+}
