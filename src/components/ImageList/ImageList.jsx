@@ -1,9 +1,9 @@
-import classes from './ImageList.module.css';
+import { ImageListWrapper } from './styles';
 
 export const ImageList = () => {
   return (
-    <ul className={classes.list}>
+    <ImageListWrapper>
       <li>Image1</li>
-    </ul>
+    </ImageListWrapper>
   );
 };
