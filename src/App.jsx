@@ -1,17 +1,19 @@
-import { ImageList } from './components';
+import { useState } from 'react';
+
+import { ImageForm, ImageList } from './components';
+import { Root } from './Root';
+import ImageListContext from './context';
 
 function App() {
+  const [imageList, setImageList] = useState([]);
+
   return (
-    <>
-      <header>
-        <h1>Тестовое задание</h1>
-      </header>
-      <main>
-        <section>
-          <ImageList />
-        </section>
-      </main>
-    </>
+    <ImageListContext.Provider value={{ imageList, setImageList }}>
+      <Root>
+        <ImageForm />
+        <ImageList />
+      </Root>
+    </ImageListContext.Provider>
   );
 }
 

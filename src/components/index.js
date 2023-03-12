@@ -1,3 +1,3 @@
-export * from './ImageList';
+export { ImageForm } from './ImageForm';
 
-export * from './Form';
+export { ImageList } from './ImageList';
