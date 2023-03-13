@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/junior-test-form-boilerplate/static/css/main.b3eeeea7.css",
+    "main.js": "/junior-test-form-boilerplate/static/js/main.58daae42.js",
+    "static/media/Img_not_available.png": "/junior-test-form-boilerplate/static/media/Img_not_available.340253f993a2e5ca3a42.png",
+    "index.html": "/junior-test-form-boilerplate/index.html",
+    "static/media/trash.svg": "/junior-test-form-boilerplate/static/media/trash.bb4b5a31eed655b5f5595a7d9f4f1e55.svg",
+    "main.b3eeeea7.css.map": "/junior-test-form-boilerplate/static/css/main.b3eeeea7.css.map",
+    "main.58daae42.js.map": "/junior-test-form-boilerplate/static/js/main.58daae42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3eeeea7.css",
+    "static/js/main.58daae42.js"
+  ]
+}
